@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8f1e3963d71d3264d90516b0a731d607
+guid: 9e4bc4c2519c2124db5ee6fd9cc4a1ed
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,11 +123,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PJ Forward_0
+      name: walkUpRight_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 6
+        y: 0
         width: 15
         height: 44
       alignment: 0
@@ -137,18 +137,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1daed2006d7a06a459942dd6dabc8e51
-      internalID: 978750015
+      spriteID: 3fb909e735040a0428459e993e3621fb
+      internalID: 1412528477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ Forward_1
+      name: walkUpRight_1
       rect:
         serializedVersion: 2
         x: 15
-        y: 6
+        y: 0
         width: 15
         height: 44
       alignment: 0
@@ -158,18 +158,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f353b9171a544ce4dacefacfd2043b87
-      internalID: 280137782
+      spriteID: 24f478158c81c154ebe91eb5af846365
+      internalID: -2039308994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ Forward_2
+      name: walkUpRight_2
       rect:
         serializedVersion: 2
         x: 30
-        y: 6
+        y: 0
         width: 15
         height: 44
       alignment: 0
@@ -179,18 +179,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b38afe12a288f847ab4b1b1a7cae3e6
-      internalID: 863627696
+      spriteID: 5a65c5efc5eb83d4f957c14462db5a99
+      internalID: -564631064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ Forward_3
+      name: walkUpRight_3
       rect:
         serializedVersion: 2
         x: 45
-        y: 6
+        y: 0
         width: 15
         height: 44
       alignment: 0
@@ -200,18 +200,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff70e7461d5052a44a26299bad253b19
-      internalID: -1682700324
+      spriteID: bbf47ffa84b414e4591f1cc339789e07
+      internalID: -946367659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ Forward_4
+      name: walkUpRight_4
       rect:
         serializedVersion: 2
         x: 60
-        y: 6
+        y: 0
         width: 15
         height: 44
       alignment: 0
@@ -221,18 +221,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 721f1d26738630c42ad5355592f4ab59
-      internalID: -316978865
+      spriteID: 3d23c7ff960672a4889a5584608f0d60
+      internalID: -445084688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ Forward_5
+      name: walkUpRight_5
       rect:
         serializedVersion: 2
         x: 75
-        y: 6
+        y: 0
         width: 15
         height: 44
       alignment: 0
@@ -242,8 +242,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c808af18565a0b4998e571bf057d1d3
-      internalID: 1043867304
+      spriteID: 93e17d9c34fcb164da45d9bbb069a1d9
+      internalID: -1814472468
       vertices: []
       indices: 
       edges: []
@@ -259,12 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PJ Forward_0: 978750015
-      PJ Forward_1: 280137782
-      PJ Forward_2: 863627696
-      PJ Forward_3: -1682700324
-      PJ Forward_4: -316978865
-      PJ Forward_5: 1043867304
+      walkUpRight_0: 1412528477
+      walkUpRight_1: -2039308994
+      walkUpRight_2: -564631064
+      walkUpRight_3: -946367659
+      walkUpRight_4: -445084688
+      walkUpRight_5: -1814472468
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

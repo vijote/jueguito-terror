@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8da1dfb7cd134f24a97c09c2c2a9675d
+guid: ea38aa5c046301e41bc5b79cdf962eed
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,11 +123,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PJ Backwards_0
+      name: PJ Idle Right_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 6
+        y: 0
         width: 15
         height: 44
       alignment: 0
@@ -137,18 +137,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 607be4eef47c4364f89f422ae4db4f1d
-      internalID: -324096684
+      spriteID: d2949e77301d6564986b0672f7e07fa0
+      internalID: 1320980144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ Backwards_1
+      name: PJ Idle Right_1
       rect:
         serializedVersion: 2
         x: 15
-        y: 6
+        y: 0
         width: 15
         height: 44
       alignment: 0
@@ -158,71 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cb44dc41f27fa245b5e5b5a66d67f55
-      internalID: 64564354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PJ Backwards_2
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 6
-        width: 15
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f80ac664801d274ead9913d06b57993
-      internalID: 1308705129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PJ Backwards_3
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 6
-        width: 15
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51733fa631f7d41499eff90d44fcaa6f
-      internalID: -2090019613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PJ Backwards_4
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 6
-        width: 15
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3797e520b9dc444e95bd15f7de28bba
-      internalID: -576713042
+      spriteID: 8a6711e15f02cd0438927c7ebef36218
+      internalID: 745441913
       vertices: []
       indices: 
       edges: []
@@ -238,11 +175,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PJ Backwards_0: -324096684
-      PJ Backwards_1: 64564354
-      PJ Backwards_2: 1308705129
-      PJ Backwards_3: -2090019613
-      PJ Backwards_4: -576713042
+      PJ Idle Right_0: 1320980144
+      PJ Idle Right_1: 745441913
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
