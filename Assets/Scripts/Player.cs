@@ -9,6 +9,9 @@ public class Player : MonoBehaviour
     private string verticalDirection = "Down";
     private string horizontalDirection = "Right";
 
+    [SerializeField]
+    private GameObject axe;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +22,21 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         Move(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        SwingAxe(Input.GetKey(KeyCode.Space));
         Animate();
+    }
+
+    private void SwingAxe(bool keyPressed)
+    {
+        if (!keyPressed)
+        {
+            axe.SetActive(false);
+            return;
+        }
+
+        state = "SwingingAxe";
+        axe.SetActive(true);
+        Debug.Log("chupame");
     }
 
     private void Move(float horizontalMovement, float verticalMovement)
