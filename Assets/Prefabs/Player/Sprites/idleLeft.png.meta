@@ -123,43 +123,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PJ Idle Left-export_0
+      name: idleLeft_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 15
         height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 650aa7324ab6c9e4998f79e745883988
-      internalID: -440055813
+      spriteID: d44bf5bdb94ae664ea1ef4063707b483
+      internalID: -1015070489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ Idle Left-export_1
+      name: idleLeft_1
       rect:
         serializedVersion: 2
         x: 15
         y: 0
         width: 15
         height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3030f4673586d2f42b44f716b63db844
-      internalID: -597885003
+      spriteID: fdd6d5b29a74c2a4a8a63e996741f6ec
+      internalID: -913042130
       vertices: []
       indices: 
       edges: []
@@ -175,8 +175,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PJ Idle Left-export_0: -440055813
-      PJ Idle Left-export_1: -597885003
+      idleLeft_0: -1015070489
+      idleLeft_1: -913042130
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

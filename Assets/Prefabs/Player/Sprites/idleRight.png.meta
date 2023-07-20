@@ -123,43 +123,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PJ Idle Right_0
+      name: idleRight_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 15
         height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2949e77301d6564986b0672f7e07fa0
-      internalID: 1320980144
+      spriteID: 2e1a34631309ade4d9234941dcd76954
+      internalID: 1520193383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ Idle Right_1
+      name: idleRight_1
       rect:
         serializedVersion: 2
         x: 15
         y: 0
         width: 15
         height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a6711e15f02cd0438927c7ebef36218
-      internalID: 745441913
+      spriteID: 1738213b7007e1d48926bc80b5de5df4
+      internalID: 1374316601
       vertices: []
       indices: 
       edges: []
@@ -175,8 +175,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PJ Idle Right_0: 1320980144
-      PJ Idle Right_1: 745441913
+      idleRight_0: 1520193383
+      idleRight_1: 1374316601
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -123,127 +123,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PJ WALKING RIGHT 2 XD_0
+      name: walkRight_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 15
         height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34a4de80ac63bd746928adc0c326fff8
-      internalID: -1083127953
+      spriteID: 64aeacbb5f57013409e5fe44adb70399
+      internalID: -10767303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ WALKING RIGHT 2 XD_1
+      name: walkRight_1
       rect:
         serializedVersion: 2
         x: 15
         y: 0
         width: 15
         height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c990b5a3fa5ea4b46a53c976690183f6
-      internalID: 205517659
+      spriteID: c1edbe94ceb0683468e3e9f21d0a18ad
+      internalID: 599177119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ WALKING RIGHT 2 XD_2
+      name: walkRight_2
       rect:
         serializedVersion: 2
         x: 30
         y: 0
         width: 15
         height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b55b9216c82e6ff47810da783079f67c
-      internalID: -1963789133
+      spriteID: 205bdcf0512dac64cae3473b1b0719bc
+      internalID: -669761262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ WALKING RIGHT 2 XD_3
+      name: walkRight_3
       rect:
         serializedVersion: 2
         x: 45
         y: 0
         width: 15
         height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68bd720ce988c92489c891e39c899944
-      internalID: -749021151
+      spriteID: 378897d91481cf34db520c447a6663ad
+      internalID: 858859360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ WALKING RIGHT 2 XD_4
+      name: walkRight_4
       rect:
         serializedVersion: 2
         x: 60
         y: 0
         width: 15
         height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d56182b32879b6147ab9a03d11b45786
-      internalID: -702756247
+      spriteID: 5c67b3f0c1ecf6b458c87187710ebd22
+      internalID: 2086200027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ WALKING RIGHT 2 XD_5
+      name: walkRight_5
       rect:
         serializedVersion: 2
         x: 75
         y: 0
         width: 15
         height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5474b0d6412b00e4d88d233756b18834
-      internalID: -662533111
+      spriteID: 254e037d51dd40448b9f9bec277c2ec3
+      internalID: 1064935549
       vertices: []
       indices: 
       edges: []
@@ -259,12 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PJ WALKING RIGHT 2 XD_0: -1083127953
-      PJ WALKING RIGHT 2 XD_1: 205517659
-      PJ WALKING RIGHT 2 XD_2: -1963789133
-      PJ WALKING RIGHT 2 XD_3: -749021151
-      PJ WALKING RIGHT 2 XD_4: -702756247
-      PJ WALKING RIGHT 2 XD_5: -662533111
+      walkRight_0: -10767303
+      walkRight_1: 599177119
+      walkRight_2: -669761262
+      walkRight_3: 858859360
+      walkRight_4: 2086200027
+      walkRight_5: 1064935549
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
