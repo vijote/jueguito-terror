@@ -729,8 +729,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1798250697}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.256, y: 7.3, z: 9.5569}
-  m_LocalScale: {x: 20.710001, y: 6.9700003, z: 10}
+  m_LocalPosition: {x: 9.3, y: 3.2, z: 9.5569}
+  m_LocalScale: {x: 10.686981, y: 6.9700003, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 799787309}
@@ -759,6 +759,7 @@ GameObject:
   - component: {fileID: 1896031026}
   - component: {fileID: 1896031025}
   - component: {fileID: 1896031027}
+  - component: {fileID: 1896031028}
   m_Layer: 0
   m_Name: Tree1
   m_TagString: Untagged
@@ -868,6 +869,20 @@ CapsuleCollider2D:
   m_Offset: {x: 3.2442503, y: 2.1576648}
   m_Size: {x: 25.8791, y: 8.590176}
   m_Direction: 1
+--- !u!114 &1896031028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896031024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2c95e6f003de0040bb899f8ff774041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
+  woodPrefab: {fileID: 2147736079002000974, guid: b060bd02967870348a6fd3f53c8a9188, type: 3}
 --- !u!1 &2052612847
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,6 +894,7 @@ GameObject:
   - component: {fileID: 2052612849}
   - component: {fileID: 2052612848}
   - component: {fileID: 2052612850}
+  - component: {fileID: 2052612851}
   m_Layer: 0
   m_Name: Tree3
   m_TagString: Untagged
@@ -988,3 +1004,17 @@ CapsuleCollider2D:
   m_Offset: {x: 3.2442503, y: 2.1576648}
   m_Size: {x: 25.8791, y: 8.590176}
   m_Direction: 1
+--- !u!114 &2052612851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052612847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2c95e6f003de0040bb899f8ff774041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
+  woodPrefab: {fileID: 2147736079002000974, guid: b060bd02967870348a6fd3f53c8a9188, type: 3}

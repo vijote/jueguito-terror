@@ -30,12 +30,11 @@ public class Axe : MonoBehaviour
     {
         while (true)
         {
+            yield return new WaitForSeconds(1f);
             Tree tree = collision.gameObject.GetComponent<Tree>();
 
             tree.ReceiveDamage(1);
             Debug.Log("making damage");
-
-            yield return new WaitForSeconds(1f);
         }
     }
 }

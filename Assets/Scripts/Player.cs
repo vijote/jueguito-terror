@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         Move(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         SwingAxe(Input.GetKey(KeyCode.Space));
@@ -33,15 +33,25 @@ public class Player : MonoBehaviour
             axe.SetActive(false);
             return;
         }
-
+        Debug.Log(axe.transform.localPosition.x);
         state = "SwingingAxe";
+        if (horizontalDirection == "Left")
+        {
+            axe.transform.localPosition = new Vector3(-9.3f,axe.transform.localPosition.y,axe.transform.localPosition.z);
+        }
+        else
+        {
+            axe.transform.localPosition = new Vector3(9.3f, axe.transform.localPosition.y, axe.transform.localPosition.z);
+        }
         axe.SetActive(true);
-        Debug.Log("chupame");
     }
 
     private void Move(float horizontalMovement, float verticalMovement)
     {
-        if (horizontalMovement == 0 && verticalMovement == 0)
+        
+        if (Input.GetKey(KeyCode.Space)) return;
+        Debug.Log(horizontalMovement);
+        if (horizontalMovement > -1 && verticalMovement > -1 && horizontalMovement < 1 && verticalMovement < 1)
         {
             state = "Idle";
             return;
@@ -77,6 +87,10 @@ public class Player : MonoBehaviour
     {
         string animationName = state;
 
+        if (Input.GetKey(KeyCode.Space)){
+            if (horizontalDirection == null) horizontalDirection= "Right";
+            animator.Play(animationName+horizontalDirection);
+        }
         if(verticalDirection != null) animationName += verticalDirection;
 
         if (horizontalDirection != null) animationName += horizontalDirection;
