@@ -50,7 +50,6 @@ public class Player : MonoBehaviour
     {
         
         if (Input.GetKey(KeyCode.Space)) return;
-        Debug.Log(horizontalMovement);
         if (horizontalMovement > -1 && verticalMovement > -1 && horizontalMovement < 1 && verticalMovement < 1)
         {
             state = "Idle";
