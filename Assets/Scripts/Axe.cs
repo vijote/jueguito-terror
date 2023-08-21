@@ -34,7 +34,6 @@ public class Axe : MonoBehaviour
             Tree tree = collision.gameObject.GetComponent<Tree>();
 
             tree.ReceiveDamage(1);
-            Debug.Log("making damage");
         }
     }
 }

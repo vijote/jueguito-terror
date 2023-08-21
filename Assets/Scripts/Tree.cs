@@ -12,18 +12,14 @@ public class Tree : MonoBehaviour
 
     public void ReceiveDamage(int damage)
     {
-        Debug.Log("me estan pegando ayuda por favor me pegan");
         health -= damage;
 
         if (health <= 0)
         {
+            Instantiate(woodPrefab, gameObject.transform.position, gameObject.transform.rotation);
             Destroy(gameObject);
         }
     }
 
-    private void OnDestroy()
-    {
-        Debug.Log("dando madera");
-        Instantiate(woodPrefab);
-    }
+    
 }

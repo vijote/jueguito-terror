@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7818605926856390911}
   - component: {fileID: 7069425705746611319}
   - component: {fileID: -5884664259148328853}
+  - component: {fileID: -3531851771114499986}
   m_Layer: 0
   m_Name: Wood
   m_TagString: Untagged
@@ -84,7 +85,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!61 &-5884664259148328853
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -130,3 +131,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 21, y: 13}
   m_EdgeRadius: 0
+--- !u!114 &-3531851771114499986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147736079002000974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3aa7112270433439cd9466c5058e70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
